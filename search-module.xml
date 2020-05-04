@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="search-module">
+    <test name="search-test-java" >
+        <parameter name="keyword" value="java" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest"></class>
+        </classes>
+    </test>
+    <test name="search-test-qa" >
+        <parameter name="keyword" value="qa" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest"></class>
+        </classes>
+    </test>
+    <test name="search-test-webdriver" >
+        <parameter name="keyword" value="webdriver" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest"></class>
+        </classes>
+    </test>
+    <test name="search-test-docker" >
+        <parameter name="keyword" value="docker" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest"></class>
+        </classes>
+    </test>
+    <test name="search-test-test" >
+        <parameter name="keyword" value="test" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest"></class>
+        </classes>
+    </test>
+    <test name="search-test-mvn" >
+        <parameter name="keyword" value="mvn" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest"></class>
+        </classes>
+    </test>
+    <test name="search-test-maven" >
+        <parameter name="keyword" value="maven" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest"></class>
+        </classes>
+    </test>
+    <test name="search-test-grafana" >
+        <parameter name="keyword" value="grafana" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest"></class>
+        </classes>
+    </test>
+
+</suite>
