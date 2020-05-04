@@ -26,13 +26,9 @@ public class BaseTest {
             dc = DesiredCapabilities.chrome();
         }
 
-        System.out.println("Value in system propery HUB_HOST is : " + System.getProperty("HUB_HOST"));
-
         if(System.getProperty("HUB_HOST") != null){
             host = System.getProperty("HUB_HOST");
         }
-
-        System.out.println("Value in host is : " + host);
 
         String vURL = "http://" + host + ":4444/wd/hub";
         this.driver = new RemoteWebDriver(new URL(vURL), dc);
